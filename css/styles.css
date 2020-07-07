@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@font-face{
+    font-family: "Staatliches";
+    src: url('../fuentes/Staatliches-Regular.ttf') format('truetype');
+    font-weight: normal;
+  font-style: normal;
+    
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #f2f2f2;
+  font-size: 33px;
+  line-height: 80px;
+  padding: 0 140px;
+  font-weight: 600;
+  font-family: 'Staatliches', sans-serif;
+}
+nav ul{
+  float: right;
+  margin-right: 60px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 2px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  /* text-transform: uppercase; */
+  font-family: 'Staatliches', sans-serif;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+/* section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+} */
+#fitness{
+  
+    position: absolute;
+    top: 120px;
+    right: 54px;
+    height: 450px;
+   
+    z-index: 1;
+}
+#Initial{
+    
+    padding-left: 80px;
+    margin-top: 90px;
+    font-size: 28px;
+    width: 45%;
+    font-family: 'Staatliches';
+    font-weight: 100;
+    color: #36aee9;
+}
+#Initial>h1{
+    font-weight: 100;
+}
+#Initial>p{
+font-size: 23px;
+letter-spacing: 1px;
+text-align: justify;
+margin-top: 5px;
+}
+#Initial>button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: RGB(0,130,230);
+    border-radius: 16px;
+    border: none;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+#logo{
+    height: 75px;
+    margin-left: 75px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.secciones{
+  width: 100%;
+  background: RGB(247,247,247);
+  height: 450px;
+}
+
+.secciones:first-child{
+  margin-top: 120px;
+}
+
+footer{
+  background-color: RGB(95,95,95);
+  width: 100%;
+  height: 450px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: minmax(auto,1fr) repeat(2,minmax(auto,380px));
+  grid-template-rows: 1fr 35px;
+  grid-template-areas: "informacion redes contacto"
+                       "  foot      foot    foot";
+}
+
+.catalogo1{
+  grid-area: informacion;
+  font-family: 'Staatliches', sans-serif;
+  letter-spacing: 1px;
+  padding-left: 5%;
+  padding-top: 4%;
+  
+}
+
+.catalogo2{
+  grid-area: redes;
+  font-family: 'Staatliches', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 30px;
+}
+.catalogo3{
+  grid-area: contacto;
+  font-family: 'Staatliches', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 30px;
+
+}
+.catalogo4{
+  grid-area: foot;
+  background-color: white;
+  height:100%;
+  width: 100%;
+  font-family: 'Staatliches', sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding-top: 6px;
+  padding-left: 40px;
+  
+}
+
+/* logos */
+.logo{
+  margin-top: 20px;
+  font-size: 20px;
+
+}
+.logo a{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.logo a:hover{
+  
+ background:none;
+ color: blue;
+ transition: 5ms;
+}
+.mon{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
