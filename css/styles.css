@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+/* Fuentes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @font-face{
     font-family: "Staatliches";
     src: url('../fuentes/Staatliches-Regular.ttf') format('truetype');
@@ -6,6 +7,7 @@
   font-style: normal;
     
 }
+/* Cambios iniciales */
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@
   list-style: none;
   text-decoration: none;
 }
-
+/* Barra de navegacion */
 nav{
   background: #0082e6;
   height: 80px;
@@ -114,6 +116,7 @@ margin-top: 5px;
     margin-top: 20px;
 }
 
+/* Secciones de la pagina */
 .secciones{
   width: 100%;
   background: RGB(247,247,247);
@@ -124,16 +127,18 @@ margin-top: 5px;
   margin-top: 120px;
 }
 
+/* Pie de pagina */
 footer{
   background-color: RGB(95,95,95);
   width: 100%;
   height: 450px;
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: minmax(auto,1fr) repeat(2,minmax(auto,380px));
+  grid-template-columns: minmax(auto,680px) repeat(2,minmax(250px,1fr));
   grid-template-rows: 1fr 35px;
   grid-template-areas: "informacion redes contacto"
                        "  foot      foot    foot";
+  
 }
 
 .catalogo1{
@@ -142,7 +147,12 @@ footer{
   letter-spacing: 1px;
   padding-left: 5%;
   padding-top: 4%;
+
   
+}
+.catalogo1>p{
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .catalogo2{
@@ -150,12 +160,16 @@ footer{
   font-family: 'Staatliches', sans-serif;
   letter-spacing: 1px;
   padding-top: 30px;
+  
 }
 .catalogo3{
   grid-area: contacto;
   font-family: 'Staatliches', sans-serif;
   letter-spacing: 1px;
   padding-top: 30px;
+  
+  
+
 
 }
 .catalogo4{
@@ -177,6 +191,9 @@ footer{
   font-size: 20px;
 
 }
+.logo>h1{
+font-weight: 200;
+}
 .logo a{
   font-size: 15px;
   text-decoration: none;
@@ -193,4 +210,40 @@ footer{
 .mon{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  letter-spacing: 0px;
+}
+.caja{
+  display: block;
+  height: 79px;
+}
+.user_image{
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+#articulos{
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 180px;
+  text-align: center;
+  
+}
+.titulo{
+  display: inline-block;
+  vertical-align: middle;
+}
+.clearfix{
+  clear: both;
+  float: none;
+}
+
+.mision{
+  width: 400px;
+  text-align: justify;
+  display: inline-block;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+
 }
