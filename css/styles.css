@@ -111,6 +111,13 @@ margin-top: 5px;
     border: none;
     margin-top: 40px;
     letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+#Initial>button:hover{
+  box-shadow: 8px 8px 8px #aaaaaa;
+  transition: 1200ms;
 }
 #logo{
     height: 75px;
@@ -225,17 +232,18 @@ font-weight: 200;
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
+  margin-bottom: 10%;
 }
 #articulos{
   width: 90%;
   margin: 0px auto;
   margin-top: 180px;
   text-align: center;
-  
+  margin-bottom: 40px;
 }
 .titulo{
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: 14px;
 }
 .clearfix{
   clear: both;
@@ -243,7 +251,7 @@ font-weight: 200;
 }
 
 .mision{
-  max-width: 390px;
+  width: 390px;
   text-align: justify;
   display: inline-block;
   margin-left: 20px;

@@ -14,14 +14,17 @@
        
        top: 200px;
     }
+    
+   
   }
   @media screen and (max-width: 922px){
-    
+  
     #fitness{
         display: none;
         
         
     }
+    
     img{
       width: 70%;
       height: 45%;
@@ -50,6 +53,7 @@
       margin: 0px auto;
       margin-top: 20px;
       margin-bottom: 10px;
+      width: 80% !important;
     }
     
     #Initial{
@@ -88,7 +92,29 @@
       #check:checked ~ ul{
         left: 0;
       }
-
+      #Initial{
+        width: 80%;
+        margin-top: 100px;
+      }
+      #Initial>h1{
+        font-size: 44px;
+      }
+      #Initial>p{
+        margin-top: 32px;
+        font-size: 22px;
+        line-height: 32px;
+      }
+      #articulos{
+        margin-top: 100px;
+      }
+      label.logo{
+        
+        padding: 0px;
+        display: inline list-item;
+        margin-left: 36%;
+        font-size: 50px;
+       
+      }
      
 
   }
@@ -97,6 +123,7 @@
     .mision{
       width: 300px;
     }
+  
     body{
       overflow-x: hidden;
     }
@@ -105,6 +132,12 @@
     }
     #Initial>p{
       font-size: 22px;
+    }
+    label.logo{
+        
+     
+      margin-left: 10%;
+     
     }
   
  
